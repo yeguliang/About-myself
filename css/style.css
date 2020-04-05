@@ -279,14 +279,14 @@ ul, ol {
 #about {
 	padding: 80px 0;
 	color: #444;
-	background: #f4d03f; /* Old browsers */
+	/* background: #f4d03f; /* Old browsers */
 	background: -moz-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, #f4d03f), color-stop(100%, #c3a632)); /* Chrome,Safari4+ */
 	background: -webkit-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top, #f4d03f 70%, #c3a632 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #f4d03f 70%, #c3a632 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4d03f', endColorstr='#c3a632', GradientType=0 ); /* IE6-9 */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4d03f', endColorstr='#c3a632', GradientType=0 ); IE6-9 */
 }
 #about .about-text {
 	margin-left: 10px;
